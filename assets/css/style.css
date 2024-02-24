@@ -8,10 +8,15 @@ body{
 
 header{
     display: flex;
+    width: 100%;
+    height: 505px; 
+    margin: 0;    
+}
+
+main{
+    display: flex;
     width: 100vw;
-    height: 505px;
-    
-    
+    flex-direction: column;
 }
 
 img{
@@ -22,7 +27,7 @@ img{
 
 header img{
     margin-top: -10px;
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -32,6 +37,7 @@ section{
 
 #section-1{
     height:573px;
+    width: 100vw;
     top: 505px;
     
 }
@@ -59,4 +65,35 @@ footer{
     top: 2652px;
 }
 
+@media screen and (min-width: 600px) {
+    body{
+        display: grid;
+        width: 100vw;
+        height: 2792px;
+        
+    }
+
+    header{
+        width: 1280px;
+        height: 459px;  
+        
+    }
+
+    header img{
+        width: 100%;
+    }
+
+   #section-1{
+    width: 100%;
+    height: 394px;
+   }
+
+   #section-2{
+    width: 1280px;
+    height: 448px;
+    top: 933px;
+    
+}
+    
+}
 

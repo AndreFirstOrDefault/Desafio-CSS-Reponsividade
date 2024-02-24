@@ -8,14 +8,26 @@
 </head>
 <body>
     <header>
-        <img src="/assets/images/mobile/Header.png" alt="">
+        <picture>
+            <source media="(max-width: 599px)" srcset="/assets/images/mobile/Header.png">
+            <source media="(min-width: 600px)" srcset="/assets/images/desktop/Header.png">
+            <img src="/assets/images/desktop/Header.png" alt="">
+        </picture>
     </header>
     <main>
         <section id="section-1">
-            <img src="/assets/images/mobile/Section 1.png" alt="">
+            <picture>
+                <source media="(max-width: 599px)" srcset="/assets/images/mobile/Section 1.png">
+                <source media="(min-width: 600px)" srcset="/assets/images/desktop/Section 1.png">
+            <img src="/assets/images/desktop/Section 1.png" alt="">
+            </picture>
         </section>
         <section id="section-2">
-            <img src="/assets/images/mobile/Section 2.png" alt="">
+            <picture>
+                <source media="(max-width: 599px)" srcset="/assets/images/mobile/Section 2.png">
+                <source media="(min-width: 600px)" srcset="/assets/images/desktop/Section 2.png">
+            <img src="/assets/images/desktop/Section 2.png" alt="">
+            </picture>
         </section>
         <section id="section-3">
             <img src="/assets/images/mobile/Section 3.png" alt="">
